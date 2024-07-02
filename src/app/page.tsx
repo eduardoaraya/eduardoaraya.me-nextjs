@@ -8,17 +8,17 @@ export default function Home() {
         <div className="p-10">
           <h1 className="mt-10 font-title font-bold text-2xl">Hi there!</h1>
           <p className="w-[500px] mt-10 font-body">
-            I'm Eduardo Araya, a technology enthusiast and problem solver with a
-            career that began in 2017. Starting as a web developer, I honed my
-            skills in PHP, MySQL, Javascript, HTML, and CSS, which laid the
-            foundation for my growth.
+            I{"`"}m Eduardo Araya, a technology enthusiast and problem solver
+            with a career that began in 2017. Starting as a web developer, I
+            honed my skills in PHP, MySQL, Javascript, HTML, and CSS, which laid
+            the foundation for my growth.
           </p>
           <p className="w-[500px] mt-10 font-body">
-            Over the years, I've dived into various projects, gaining expertise
-            in technologies like Javascript, Typescript, Node.js, PHP, Docker,
-            Linux, and Angular. As a full stack developer, I've tackled
-            everything from mobile apps and e-commerce to enterprise systems,
-            always striving to deliver impactful solutions.
+            Over the years, I{"`"}ve dived into various projects, gaining
+            expertise in technologies like Javascript, Typescript, Node.js, PHP,
+            Docker, Linux, and Angular. As a full stack developer, I{"`"}ve
+            tackled everything from mobile apps and e-commerce to enterprise
+            systems, always striving to deliver impactful solutions.
           </p>
         </div>
         <div className="p-5 w-full">
