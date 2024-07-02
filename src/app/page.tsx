@@ -35,54 +35,56 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className="w-full py-[75px]">
-        <div className="p-10 grid grid-cols-4 gap-4 auto-rows-auto">
-          <div className="shadow-xl rounded-md col-span-3 h-[200px]">
-            <div className="h-full p-10 flex items-center">
-              <h1 className="font-title font-bold text-2xl m-5">100</h1>
-              <p className="p-1 font-body">
-                Lorem Ipsum is simply dummy text of the printing
-              </p>
+      {false && (
+        <div className="w-full py-[75px]">
+          <div className="p-10 grid grid-cols-4 gap-4 auto-rows-auto">
+            <div className="shadow-xl rounded-md col-span-3 h-[200px]">
+              <div className="h-full p-10 flex items-center">
+                <h1 className="font-title font-bold text-2xl m-5">100</h1>
+                <p className="p-1 font-body">
+                  Lorem Ipsum is simply dummy text of the printing
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="shadow-xl rounded-md col-span-1 h-[200px]">
-            <div className="h-full p-10 flex flex-col items-center">
-              <h1 className="font-title font-bold text-2xl m-5">100,5L</h1>
-              <p className="p-1 font-body">Coffe</p>
+            <div className="shadow-xl rounded-md col-span-1 h-[200px]">
+              <div className="h-full p-10 flex flex-col items-center">
+                <h1 className="font-title font-bold text-2xl m-5">100,5L</h1>
+                <p className="p-1 font-body">Coffe</p>
+              </div>
             </div>
-          </div>
-          <div className="shadow-xl rounded-md col-span-1 h-[200px]">
-            <div className="h-full p-10 flex flex-col items-center">
-              <h1 className="font-title font-bold text-2xl m-5">11238h</h1>
-              <p className="p-1 font-body">Coding</p>
+            <div className="shadow-xl rounded-md col-span-1 h-[200px]">
+              <div className="h-full p-10 flex flex-col items-center">
+                <h1 className="font-title font-bold text-2xl m-5">11238h</h1>
+                <p className="p-1 font-body">Coding</p>
+              </div>
             </div>
-          </div>
-          <div className="shadow-xl rounded-md col-span-3 h-[200px]">
-            <div className="h-full p-10 flex items-center">
-              <h1 className="font-title font-bold text-2xl m-5">16870</h1>
-              <p className="p-1 font-body">
-                Lorem Ipsum is simply dummy text of the printing
-              </p>
+            <div className="shadow-xl rounded-md col-span-3 h-[200px]">
+              <div className="h-full p-10 flex items-center">
+                <h1 className="font-title font-bold text-2xl m-5">16870</h1>
+                <p className="p-1 font-body">
+                  Lorem Ipsum is simply dummy text of the printing
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="shadow-xl rounded-md col-span-2 h-[200px]">
-            <div className="h-full p-10 flex items-center">
-              <h1 className="font-title font-bold text-2xl m-5">58</h1>
-              <p className="p-1 font-body">
-                Lorem Ipsum is simply dummy text of the printing
-              </p>
+            <div className="shadow-xl rounded-md col-span-2 h-[200px]">
+              <div className="h-full p-10 flex items-center">
+                <h1 className="font-title font-bold text-2xl m-5">58</h1>
+                <p className="p-1 font-body">
+                  Lorem Ipsum is simply dummy text of the printing
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="shadow-xl rounded-md col-span-2 h-[200px]">
-            <div className="h-full p-10 flex items-center">
-              <h1 className="font-title font-bold text-2xl m-5">20</h1>
-              <p className="p-1 font-body">
-                Lorem Ipsum is simply dummy text of the printing
-              </p>
+            <div className="shadow-xl rounded-md col-span-2 h-[200px]">
+              <div className="h-full p-10 flex items-center">
+                <h1 className="font-title font-bold text-2xl m-5">20</h1>
+                <p className="p-1 font-body">
+                  Lorem Ipsum is simply dummy text of the printing
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div> */}
+      )}
 
       <div className="w-full py-[75px]">
         <h1 className="font-title font-bold text-center text-2xl">My Skills</h1>
