@@ -90,7 +90,9 @@ export default function Home() {
           </div>
           <div className="shadow-xl rounded-md col-span-1 h-[200px]">
             <div className="h-full p-10 flex flex-col items-center">
-              <h1 className="font-title font-bold text-2xl m-5">7 years</h1>
+              <h1 className="font-title font-bold text-2xl m-5">
+                {new Date().getFullYear() - 2017} years
+              </h1>
               <p className="p-1 font-body">of Coding</p>
             </div>
           </div>
