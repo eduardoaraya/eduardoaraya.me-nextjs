@@ -1,4 +1,6 @@
-export const MysqlIcon = () => (
+import { SVGAttributes } from "react";
+
+export const MysqlIcon = (data: SVGAttributes<unknown>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
@@ -6,6 +8,7 @@ export const MysqlIcon = () => (
     width="100"
     height="100"
     viewBox="0 0 48 48"
+    {...data}
   >
     <path
       fill="#00796b"
