@@ -21,7 +21,7 @@ export const IntroductionSection = () => (
         {/* <h1 className="mb-3 font-title font-bold text-xl">
           <span className="text-4xl">👋</span> Hi there!
         </h1> */}
-        {/* <h1 className="mb-3 font-title font-bold text-lg">I'm Eduardo Araya</h1> */}
+        {/* <h1 className="mb-3 font-title font-bold text-lg">I`&apos;m Eduardo Araya</h1> */}
         <h3 className="mt-3 text-sm">🌎 Vitória/ES - Brazil</h3>
         <h3 className="mt-5 text-sm">👓 Fullstack Developer</h3>
         {/* <h3 className="mt-3 text-md">🐧 Linux user</h3>
