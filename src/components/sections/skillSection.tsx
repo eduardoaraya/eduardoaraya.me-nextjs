@@ -30,7 +30,7 @@ export const SkillSection = () => (
     </p>
     <div className="grid grid-cols-1 lg:grid-cols-6 gap-20 auto-rows-auto">
       <div className="rounded-md col-span-2">
-        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
           Back-end
         </h2>
         <div className="h-full flex items-center">
@@ -48,7 +48,7 @@ export const SkillSection = () => (
         </div>
       </div>
       <div className="rounded-md col-span-2">
-        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
           Cloud Providers
         </h2>
         <div className="h-full flex items-center">
@@ -66,7 +66,7 @@ export const SkillSection = () => (
         </div>
       </div>
       <div className="rounded-md col-span-2">
-        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
           Database
         </h2>
         <div className="h-full flex items-center">
@@ -82,7 +82,7 @@ export const SkillSection = () => (
       </div>
 
       <div className="rounded-md col-span-2">
-        <h4 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h4 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
           Frontend
         </h4>
         <div className="h-full flex items-center">
@@ -109,7 +109,7 @@ export const SkillSection = () => (
         </div>
       </div>
       <div className="rounded-md col-span-2">
-        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
           Tools
         </h2>
         <div className="h-full flex items-center">
