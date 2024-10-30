@@ -23,8 +23,10 @@ import { XpChart } from "../charts/xp";
 const YEAR_STARTED = 2017;
 
 export const SkillSection = () => (
-  <section className="w-full mt-10 p-[35px]" id="skills">
-    <h1 className="font-title text-xl md:text-2xl">Skills</h1>
+  <section className="w-full mt-10 p-[35px] md:p-[5px] md:mt-50" id="skills">
+    <h1 className="font-title text-xl md:text-xl lg:text-2xl md:mb-10">
+      Skills
+    </h1>
     <p className="mb-10 text-gray-400 text-xs md:text-md">
       Based on {new Date().getFullYear() - 2017} years of experience
     </p>
