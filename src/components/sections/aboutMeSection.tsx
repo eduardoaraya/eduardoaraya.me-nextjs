@@ -22,8 +22,8 @@ export const AboutMeSection = () => (
               so curios of how things work ...
             </p>
             <p className="my-5">
-              Started my career in 2017 as a Web Developer and I've working and
-              exploring this area since then.
+              Started my career in 2017 as a Web Developer and I have working
+              and exploring this area since then.
             </p>
           </div>
         </div>
