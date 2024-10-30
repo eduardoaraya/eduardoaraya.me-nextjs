@@ -1,5 +1,5 @@
 export const AboutMeSection = () => (
-  <section className="w-full md:mt-10 px-[35px] md:p-[5px]" id="about-me">
+  <section className="w-full md:mt-10 p-[35px] md:p-[5px]" id="about-me">
     <h1 className="text-left text-xl md:text-xl lg:text-2xl md:mb-10">
       About me!
     </h1>
