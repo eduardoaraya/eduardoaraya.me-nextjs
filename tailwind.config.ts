@@ -22,7 +22,7 @@ const config: Config = {
       container: {
         screens: {
           // xl: "1024px",
-          xxl: "1024px",
+          xxl: "1366px",
         },
       },
     },

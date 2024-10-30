@@ -1,10 +1,16 @@
 import Image from "next/image";
 
-export function Logo(): JSX.Element {
+export function Logo({
+  height,
+  width,
+}: {
+  width?: number;
+  height?: number;
+}): JSX.Element {
   return (
     <Image
-      width="100"
-      height="100"
+      width={!width ? 100 : width}
+      height={!height ? 100 : height}
       src="/images/logo.png"
       alt="Logo: Eduardo Araya"
     />
