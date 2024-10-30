@@ -23,11 +23,14 @@ import { XpChart } from "../charts/xp";
 const YEAR_STARTED = 2017;
 
 export const SkillSection = () => (
-  <div className="w-full mt-10">
-    <h1 className="mb-10 font-title text-2xl">My Skills</h1>
-    <div className="grid grid-cols-6 gap-20 auto-rows-auto">
+  <section className="w-full mt-10 p-[35px]" id="skills">
+    <h1 className="font-title text-xl md:text-2xl">Skills</h1>
+    <p className="mb-10 text-gray-400 text-xs md:text-md">
+      Based on {new Date().getFullYear() - 2017} years of experience
+    </p>
+    <div className="grid grid-cols-1 lg:grid-cols-6 gap-20 auto-rows-auto">
       <div className="rounded-md col-span-2">
-        <h2 className="font-title  text-md text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
           Back-end
         </h2>
         <div className="h-full flex items-center">
@@ -45,25 +48,25 @@ export const SkillSection = () => (
         </div>
       </div>
       <div className="rounded-md col-span-2">
-        <h2 className="font-title  text-md text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
           Cloud Providers
         </h2>
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={3}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={4}>
               <AWSIcon width={50} height={50} />
             </XpChart>
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={3}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={5}>
               <AzureIcon width={50} height={50} />
             </XpChart>
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={1}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={2}>
               <GCPIcon width={50} height={50} />
             </XpChart>
           </div>
         </div>
       </div>
       <div className="rounded-md col-span-2">
-        <h2 className="font-title  text-md text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
           Database
         </h2>
         <div className="h-full flex items-center">
@@ -71,7 +74,7 @@ export const SkillSection = () => (
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={7}>
               <MysqlIcon width={50} height={50} />
             </XpChart>
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={2}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={5}>
               <PostgresqlIcon width={50} height={50} />
             </XpChart>
           </div>
@@ -79,7 +82,7 @@ export const SkillSection = () => (
       </div>
 
       <div className="rounded-md col-span-2">
-        <h4 className="font-title  text-md text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h4 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
           Frontend
         </h4>
         <div className="h-full flex items-center">
@@ -106,7 +109,7 @@ export const SkillSection = () => (
         </div>
       </div>
       <div className="rounded-md col-span-2">
-        <h2 className="font-title  text-md text-gray-500 mb-3 border-b-2 p-3 uppercase">
+        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 border-b-2 p-3 uppercase">
           Tools
         </h2>
         <div className="h-full flex items-center">
@@ -114,7 +117,7 @@ export const SkillSection = () => (
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={7}>
               <DockerIcon width={50} height={50} />
             </XpChart>
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={2}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={7}>
               <ArchIcon width={50} height={50} />
             </XpChart>
           </div>
@@ -141,5 +144,5 @@ export const SkillSection = () => (
         </div>
       </div> */}
     </div>
-  </div>
+  </section>
 );

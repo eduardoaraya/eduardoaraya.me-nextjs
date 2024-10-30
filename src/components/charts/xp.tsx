@@ -26,7 +26,7 @@ export const XpChart = ({
           }
         ></div>
       ))}
-      <div className="flex-1">{children}</div>
+      <div className="flex-1 px-5 md:px-0">{children}</div>
     </div>
   );
 };
