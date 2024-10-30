@@ -8,9 +8,9 @@ export function Menu() {
         <li className="font-bold bg-white p-5 text-xs lg:text-md shadow">
           <a href="#skills">Skills</a>
         </li>
-        <li className="font-bold bg-white p-5 text-xs lg:text-md shadow">
+        {/* <li className="font-bold bg-white p-5 text-xs lg:text-md shadow">
           <a href="#contact">Contact</a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
