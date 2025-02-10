@@ -23,11 +23,11 @@ import { XpChart } from "../charts/xp";
 const YEAR_STARTED = 2017;
 
 export const SkillSection = () => (
-  <section className="w-full mt-10 p-[35px] md:p-[5px] md:mt-50" id="skills">
+  <section className="w-full mt-10 p-[35px] md:p-[5px]" id="skills">
     <h1 className="font-title text-xl md:text-xl lg:text-2xl md:mb-10">
       Skills
     </h1>
-    <p className="mb-10 text-gray-400 text-xs md:text-md">
+    <p className="mb-2 text-gray-400 text-xs md:text-md">
       Based on {new Date().getFullYear() - 2017} years of experience
     </p>
     <div className="grid grid-cols-1 lg:grid-cols-6 gap-20 auto-rows-auto">
@@ -37,10 +37,10 @@ export const SkillSection = () => (
         </h2>
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={6}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
               <NodejsIcon width={50} height={50} />
             </XpChart>
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={3}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={4}>
               <CsharpIcon width={50} height={50} />
             </XpChart>
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={2}>
@@ -73,7 +73,7 @@ export const SkillSection = () => (
         </h2>
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={7}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
               <MysqlIcon width={50} height={50} />
             </XpChart>
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={5}>
@@ -89,16 +89,16 @@ export const SkillSection = () => (
         </h4>
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={7}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
               <JsIcon width={50} height={50} />
             </XpChart>
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={5}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
               <TsIcon width={50} height={50} />
             </XpChart>
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={5}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={7}>
               <AngularIcon width={50} height={50} />
             </XpChart>
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={5}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={2}>
               <IonicIcon width={50} height={50} />
             </XpChart>
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={4}>
@@ -116,16 +116,16 @@ export const SkillSection = () => (
         </h2>
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={7}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
               <DockerIcon width={50} height={50} />
             </XpChart>
-            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={7}>
+            <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
               <ArchIcon width={50} height={50} />
             </XpChart>
           </div>
         </div>
       </div>
-      {/* <div className="rounded-md col-span-3">
+      <div className="rounded-md col-span-3">
         <div className="h-full p-10 flex flex-col items-center">
           <h2 className="font-title font-bold text-2xl m-5">766,5L</h2>
           <p className="p-1 font-body">☕ of Coffee</p>
@@ -139,12 +139,12 @@ export const SkillSection = () => (
           <p className="p-1 font-body">of Coding</p>
         </div>
       </div>
-      <div className="rounded-md col-span-3">
-        <div className="h-full p-10 flex items-center">
-          <h2 className="font-title font-bold text-2xl m-5">Photography</h2>
+      <div className="rounded-md col-span-6">
+        <div className="h-full p-10 flex items-center justify-center flex-col">
+          <h2 className="font-title font-bold text-2xl">Photographer </h2>
           <p className="p-1 font-body">as a hobby</p>
         </div>
-      </div> */}
+      </div>
     </div>
   </section>
 );
