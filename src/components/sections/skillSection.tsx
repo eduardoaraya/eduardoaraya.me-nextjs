@@ -19,22 +19,24 @@ import {
   WordpressIcon,
 } from "@eduardoaraya/components/icons";
 import { XpChart } from "../charts/xp";
+import { TitleSescion } from "../ui/title/titleSection";
 
 const YEAR_STARTED = 2017;
 
 export const SkillSection = () => (
-  <section className="w-full mt-10 p-[35px] md:p-[5px]" id="skills">
-    <h1 className="font-title text-xl md:text-xl lg:text-2xl md:mb-10">
-      Skills
-    </h1>
-    <p className="mb-2 text-gray-400 text-xs md:text-md">
-      Based on {new Date().getFullYear() - 2017} years of experience
-    </p>
-    <div className="grid grid-cols-1 lg:grid-cols-6 gap-20 auto-rows-auto">
+  <section className="w-full mt-20 p-[35px] md:p-[5px]" id="skills">
+    <TitleSescion>
+      Technical skills
+      <span className="ml-5 text-gray-400 text-sm md:text-md">
+        Based on {new Date().getFullYear() - 2017} years of experience
+      </span>
+    </TitleSescion>
+
+    <div className="grid grid-cols-1 lg:grid-cols-6 gap-20 auto-rows-auto pt-10">
       <div className="rounded-md col-span-2">
-        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
+        {/* <h2 className="font-title text-md md:text-lg text-gray-500 my-3">
           Back-end
-        </h2>
+        </h2> */}
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
@@ -50,9 +52,9 @@ export const SkillSection = () => (
         </div>
       </div>
       <div className="rounded-md col-span-2">
-        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
+        {/* <h2 className="font-title text-md md:text-lg text-gray-500 my-3">
           Cloud Providers
-        </h2>
+        </h2> */}
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={4}>
@@ -68,9 +70,9 @@ export const SkillSection = () => (
         </div>
       </div>
       <div className="rounded-md col-span-2">
-        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
+        {/* <h2 className="font-title text-md md:text-lg text-gray-500 my-3">
           Database
-        </h2>
+        </h2> */}
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
@@ -82,11 +84,10 @@ export const SkillSection = () => (
           </div>
         </div>
       </div>
-
       <div className="rounded-md col-span-2">
-        <h4 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
+        {/* <h4 className="font-title text-md md:text-lg text-gray-500 my-3">
           Frontend
-        </h4>
+        </h4> */}
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
@@ -111,9 +112,9 @@ export const SkillSection = () => (
         </div>
       </div>
       <div className="rounded-md col-span-2">
-        <h2 className="font-title text-md md:text-lg text-gray-500 mb-3 md:border-b-2 p-3 uppercase">
+        {/* <h2 className="font-title text-md md:text-lg text-gray-500 my-3">
           Tools
-        </h2>
+        </h2> */}
         <div className="h-full flex items-center">
           <div className="h-full flex items-center flex-col gap-5">
             <XpChart yearStarted={YEAR_STARTED} yearsOfExperience={100}>
@@ -123,26 +124,6 @@ export const SkillSection = () => (
               <ArchIcon width={50} height={50} />
             </XpChart>
           </div>
-        </div>
-      </div>
-      <div className="rounded-md col-span-3">
-        <div className="h-full p-10 flex flex-col items-center">
-          <h2 className="font-title font-bold text-2xl m-5">766,5L</h2>
-          <p className="p-1 font-body">☕ of Coffee</p>
-        </div>
-      </div>
-      <div className="rounded-md col-span-3">
-        <div className="h-full p-10 flex flex-col items-center">
-          <h2 className="font-title font-bold text-2xl m-5">
-            {new Date().getFullYear() - 2017} years
-          </h2>
-          <p className="p-1 font-body">of Coding</p>
-        </div>
-      </div>
-      <div className="rounded-md col-span-6">
-        <div className="h-full p-10 flex items-center justify-center flex-col">
-          <h2 className="font-title font-bold text-2xl">Photographer </h2>
-          <p className="p-1 font-body">as a hobby</p>
         </div>
       </div>
     </div>

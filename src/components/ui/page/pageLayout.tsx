@@ -8,9 +8,13 @@ export function PageLayout({
     <main className="flex flex-col">
       <div className="grid grid-cols-12 gap-5">
         <div className="col-span-12 md:col-span-3">
-          <div className="md:fixed p-5 lg:p-10">{aside}</div>
+          <div className="relative w-full">
+            <div className="md:fixed min-w-[20px]">
+              <div className="w-full">{aside}</div>
+            </div>
+          </div>
         </div>
-        <div className="flex col-span-12 md:col-start-4">
+        <div className="flex col-span-12 md:col-start-4 ">
           <div className="flex flex-col pb-10">{children}</div>
         </div>
       </div>

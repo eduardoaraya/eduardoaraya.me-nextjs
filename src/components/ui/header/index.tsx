@@ -1,5 +1,5 @@
-import { Logo } from "../logo";
-import { Menu } from "../menu";
+// import { Logo } from "../logo";
+// import { Menu } from "../menu";
 
 export function Header(): JSX.Element {
   return (
@@ -7,9 +7,8 @@ export function Header(): JSX.Element {
       <div className="container m-auto">
         <div className="flex flex-row justify-between items-center px-5 py-3">
           <div className="w-[65px] md:w-[100px]">
-            <Logo width={100} height={100} />
+            {/* <Logo width={100} height={100} /> */}
           </div>
-          <Menu />
         </div>
       </div>
     </header>
